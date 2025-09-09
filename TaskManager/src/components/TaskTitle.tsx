@@ -1,5 +1,5 @@
-export default function TaskTitle(){
+export default function TaskTitle({title = "Title"}: {title: string}){
     return(
-        <h1>Task title</h1>
+        <h1>{title}</h1>
     )
 }
